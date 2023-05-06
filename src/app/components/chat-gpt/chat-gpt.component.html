@@ -1,0 +1,20 @@
+<div class="main-content">
+<div style="margin: 30px;">
+
+  <div class="card"  *ngFor="let data of textList">
+    <div class="card-header">
+      <div class="input-space" >
+        <input #myInput  type="text" [(ngModel)]="data.text" class="form-control" placeholder="How can i help you?">
+        <div class="input-group-append">
+          <button  type="button" (click)="generateText(data)" style="margin-top: 20px" class="buttonAI">Generate</button>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="card-text">{{data.response}}</p>
+    </div>
+  </div>
+
+
+</div>
+</div>
