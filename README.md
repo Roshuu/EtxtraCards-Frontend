@@ -1,29 +1,67 @@
-# SKLEP KOMPUTEROWY Z DORADZTWEM DOBORU PODZESPOŁÓW.
+# Dokumentacja Aplikacji ExtraCards
+  
+## Spis Treści
+* [Informacje Ogólne](#informacje-ogólne)
+* [Technologie Użyte](#technologie-użyte)
+* [Funkcjonalności](#funkcjonalności)
+* [Zrzuty Ekranu](#zrzuty-ekranu)
+* [Status Projektu](#status-projektu)
+* [Plan Rozwoju](#plan-rozwoju)
+* [Twórcy](#twórcy)
+* [Kontakt](#kontakt)
+ 
+## Informacje Ogólne
+- Celem aplikacji jest kupno produktów na stronie internetowej oraz poradzenie się w zakupie produktu chatu ai.
+ 
+## Technologie Użyte
+- Java
+- Spring
+- MySQL
+ 
+## Funkcjonalności
+- Dodawanie nowych produktów w sklepie.
+- Edycja produktów.
+- Kupno produktów.
+- Spytanie o pomoc chat AI
 
-Sklep internetowy z doradztwem produktów oparty na architekturze Spring Boot i Angular. Pomoc w doborze produktów jest realizowana przy użyciu OpenAI Chat API.
+ 
+## Zrzuty Ekranu
 
-## Zastosowane technologie:
+**Strona główna**
+![Strona główna](screenshots/main-page.PNG)
 
-•	Frontend: HTML, CSS, TYPESCRIPT
-•	Backend: JAVA
-•	Środowisko: IntelliJ IDEA
+**Koszyk**
+![Logowanie](screenshots/shop-page.PNG)
 
+**Produkty**
+![Lista Wycieczek](screenshots/products-page.PNG)
 
-## funkcjonalności
+**Pomoc Chatu**
+![Dane Wycieczki](screenshots/chat-page.PNG)
 
-1.Wyświetlenie listy dostępnych produktów na głównej stronie sklepu internetowego.  
+**Formularz wysyłki**
+![Koszyk Produktów](screenshots/purchase-page.PNG)
 
-2.Doradztwo wyboru podzespołów komputerowych w oparciu o AI.  
+**Produkt**
+![Koszyk Produktów](screenshots/product-page.PNG)
+ 
 
-3.Użytkownik powinien mieć możliwość dodania produktu do koszyka.  
-
-4.Zmiana ilości produktów na bieżącej stronie.  
-
-5.Szkanie produktu po jego nazwie  
-
-6.Usunięcie produktu z koszyka  
-
-7.Możliowść wyboru produktów po danjej kategori  
-
-8.Uzupłmianie formularzu płatniczego  
-
+ 
+## Jak Korzystać
+Dodawaj, edytuj i przeglądaj produktów.
+-Wykorzystaj chat AI do pomocy
+-Przeglądaj produkty
+ 
+## Status Projektu
+Projekt jest w trakcie rozwoju.
+ 
+## Plan Rozwoju
+- Wprowadzenie pełnej funkcjonalnościu zakupu produktów.
+- Możliwość logowania się.
+- możliowść zakupu produktów
+ 
+## Twórca
+- Projekt stworzony przez [@Roshuu](https://github.com/Roshuu).
+ 
+## Kontakt
+- W przypadku pytań lub sugestii, proszę kontaktować się z twórcami projektu.
